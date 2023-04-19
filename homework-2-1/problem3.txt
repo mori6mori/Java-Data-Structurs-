@@ -1,0 +1,30 @@
+n = 2
+cubic 2420, 2590, 4560
+exp 43621, 51831, 38841
+constant 2080, 3600, 3790
+
+n = 4 
+cubic 4820, 6620, 4910
+exp 51560, 47440, 40781
+constant 4420, 4520, 3060
+
+n = 8
+cubic 17030, 12061
+exp 117971, 84741
+constant 3690, 1890
+
+n = 16
+cubic 70921, 70660
+exp 19310612, 18181596
+constant 8800, 4410
+
+
+comparing the change in each method across a variety of n values, as n increases, 
+the running time of constant method is have the shortest running time
+the constant method is suppose to have zero growth rate (but because of noises and memory allocation delays, the runtime of constant method did change for the same n value and across n values)
+the exponential method have the longest running time 
+the running time growth rate is also fastest for exponential as n increases 
+the running time of cubic method grew faster than constant and slower than exponential 
+
+
+
